@@ -4,16 +4,24 @@
     width: 950px;
     height: 590px;
 }
+
 div.formGroup.form-group{
     margin-bottom: 50px;
 }
+
 label.form-label{
     color: #17d8be;
 }
+
 input.form-control, select.form-control{
     border-top: slategray;
     border-right: 0;
     border-top: 0;
-    border-left: 0;
-    
+    border-left: 0;   
+}
+
+input.form-control:focus, select.form-control:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
